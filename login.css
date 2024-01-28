@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lato:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+   
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+    /* background:linear-gradient(to right,#3cc1e3,#a8f5ff); */
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to top left,#3ed8ff,#a8f5ff);
+    
+}
+.inner-box{
+    background-color:rgba(0, 0, 255, 0);
+    width: 340px;
+    margin: 0px auto;
+    /* move top se 50% */
+    top: 50%;
+    position: relative;
+    /* to move this box to -50% of inital height */
+    transform: translateY(-50%);
+    border: 1px solid #ccc;
+    padding: 8px 40px 18px ;
+    background:linear-gradient(to top left ,#ffffff,rgba(0, 0, 255, 0.014));
+    /* blur */
+    backdrop-filter: blur(18px);
+    border-radius: 8px;
+     box-shadow: 5px 2px 5px  #2474a9;
+    z-index: 1;
+
+}
+.signup h1{
+    font-size: 2.5rem;
+    color: #212121;
+    padding-left: 10px;
+}
+.signup p{
+    font-size: .85rem ;
+    color: #555;
+    margin: 0px 6px;
+    padding-left: 8px;
+}
+.signup-body{
+margin: 7px;
+
+}
+.signup-body p{
+    margin: 5px;
+    padding: 2px;
+   
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 8px ;
+    border-radius: 2px;
+    text-align: center;
+    border: 2px solid #7a7979cc;
+    font-size: 13px;
+    
+}
+
+/* or we can use the id */
+.signup-body p input[type="submit"]{
+    background-color: #2091db;
+    border: none;
+    margin-top: 30px;
+    border-radius: 3px;
+   
+   /* margin: 30px ; */
+    color: white;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    background-color:#0d5686 ;
+
+}
+
+
+.circle{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    background:linear-gradient(to right ,rgb(182, 248, 248),#ffffff);
+    position: absolute;
+    top: 0px;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    right: 30px;
+    top: 292px;
+}
